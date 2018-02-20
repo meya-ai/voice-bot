@@ -1,0 +1,23 @@
+name: play_game
+states:
+    first:
+        component: meya.input_string
+        properties:
+            text: "Hi there! Let's play a game. Ready?"
+            
+    question:
+        component: meya.input_cms
+        properties:
+            text: "What's the capital of Canada?"
+            space: "trivia"
+            key: "capital"
+            language: "en"
+            error_message: "Incorrect. Try again."
+            require_match: true
+        transitions:
+            capital: answer
+    answer:
+        component: meya.text
+        properties:
+            text: "Correct, {{ flow.value }} is the capital of Canada."
+        return: true

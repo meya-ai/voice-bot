@@ -1,0 +1,10 @@
+name: ssml
+states:
+    speech:
+        component: meya.text
+        properties:
+            text: This is not SSML. The audio will have more interesting things.
+            speech: |
+                Here are <say-as interpret-as="characters">SSML</say-as> samples.
+                I can pause <break time="3s"/>.
+                I can play a sound

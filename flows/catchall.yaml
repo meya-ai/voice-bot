@@ -1,0 +1,8 @@
+name: catchall
+states:
+
+    first:
+        component: meya.text
+        properties:
+            text: "I didn't understand that. Try saying 'play a game'."
+            expect_user_action: true

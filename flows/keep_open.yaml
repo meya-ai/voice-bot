@@ -1,0 +1,7 @@
+name: keep_open
+states:
+    first:
+        component: meya.text
+        properties:
+            text: "What would you like to talk about? Try 'small talk'"
+            expect_user_action: true

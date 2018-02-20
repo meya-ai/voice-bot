@@ -1,0 +1,6 @@
+-   io: input
+    key: capital
+    language: en
+    tag: ''
+    type: string
+    value: Ottawa

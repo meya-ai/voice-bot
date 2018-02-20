@@ -1,0 +1,8 @@
+name: nested
+states:
+    first:
+        component: meya.text
+        properties:
+            text: "First message. Now will call subflow."
+    sub:
+        flow: sub

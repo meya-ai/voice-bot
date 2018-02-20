@@ -1,0 +1,12 @@
+name: short_delay
+states:
+    called1:
+        component: meya.text
+        properties:
+            text: "CALLED_THE_FIRST_TIME_EXPECT_1_MORE"
+        delay:
+            relative: 1
+    called2:
+        component: meya.text
+        properties:
+            text: "CALLED_THE_SECOND_TIME"

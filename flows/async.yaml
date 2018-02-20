@@ -1,0 +1,10 @@
+name: async
+states:
+    first:
+        component: meya.text
+        properties:
+            text: "First message. Now will call subflow via async."
+    sub:
+        component: meya.start_flow
+        properties:
+            flow: sub

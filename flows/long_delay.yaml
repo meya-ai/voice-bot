@@ -1,0 +1,12 @@
+name: long_delay
+states:
+    called:
+        component: meya.text
+        properties:
+            text: "ONLY_STATE_THAT_IS_CALLED_NO_MORE"
+        delay:
+            relative: 10
+    not_called:
+        component: meya.text
+        properties:
+            text: "NOT_CALLED"

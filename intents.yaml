@@ -1,0 +1,55 @@
+-   flow: async
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: async
+-   flow: catchall
+    intent: meya.catchall
+-   flow: faq
+    intent: meya.cms_nlu
+    settings:
+        detect_language: true
+        space: faq
+        use_keyword_fallback: true
+-   flow: hello_world
+    intent: meya.start_voice_chat
+-   flow: joke
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: tell a joke
+-   flow: keep_open
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: keep open
+-   flow: long_delay
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: long_delay
+-   flow: nested
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: nested
+-   flow: play_game
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: play a game
+-   flow: short_delay
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: short_delay
+-   flow: smalltalk
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: small talk
+-   flow: ssml
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: ssml

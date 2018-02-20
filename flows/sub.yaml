@@ -1,0 +1,6 @@
+name: sub
+states:
+    first:
+        component: meya.text
+        properties:
+            text: "Sub flow called."

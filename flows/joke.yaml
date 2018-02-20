@@ -1,0 +1,4 @@
+name: joke
+states:
+    first:
+        component: joke

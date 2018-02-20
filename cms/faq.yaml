@@ -1,0 +1,42 @@
+-   io: input
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: What time is it?
+-   io: input
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: time?
+-   io: input
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: What's the time?
+-   io: input
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: what time
+-   io: input
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: what time?
+-   io: output
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: It's game time!
+-   io: output
+    key: main
+    language: en
+    tag: ''
+    type: string
+    value: Game time, fool!

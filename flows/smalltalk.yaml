@@ -1,0 +1,16 @@
+name: smalltalk
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Hello, I'm Celeste.
+    get_name:
+        component: meya.input_string
+        properties:
+            text: "What's your name?"
+            output: name
+            scope: user
+    confirm_name:
+        component: meya.text
+        properties:
+            text: "Nice to meet you, {{ user.name }}!"
