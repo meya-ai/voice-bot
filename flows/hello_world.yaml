@@ -1,6 +1,6 @@
-name: hello_world
+triggers:
+  - type: meya.start_voice_chat
 states:
-
     say_hi:
         component: meya.text
         properties:

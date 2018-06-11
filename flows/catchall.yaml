@@ -1,6 +1,6 @@
-name: catchall
+triggers:
+  - type: meya.catchall
 states:
-
     first:
         component: meya.text
         properties:
