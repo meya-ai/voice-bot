@@ -1,4 +1,8 @@
-name: short_delay
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: short_delay
 states:
     called1:
         component: meya.text

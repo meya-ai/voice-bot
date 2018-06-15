@@ -1,4 +1,8 @@
-name: long_delay
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: long_delay
 states:
     called:
         component: meya.text

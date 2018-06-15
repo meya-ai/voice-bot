@@ -1,4 +1,8 @@
-name: ssml
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: ssml
 states:
     speech:
         component: meya.text

@@ -1,4 +1,8 @@
-name: joke
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: tell a joke
 states:
     first:
         component: joke

@@ -1,4 +1,8 @@
-name: keep_open
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: keep open
 states:
     first:
         component: meya.text

@@ -1,4 +1,8 @@
-name: smalltalk
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: small talk
 states:
     first:
         component: meya.text

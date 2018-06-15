@@ -1,4 +1,8 @@
-name: nested
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: nested
 states:
     first:
         component: meya.text

@@ -1,4 +1,8 @@
-name: async
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: async
 states:
     first:
         component: meya.text

@@ -1,4 +1,8 @@
-name: play_game
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: play a game
 states:
     first:
         component: meya.input_string
